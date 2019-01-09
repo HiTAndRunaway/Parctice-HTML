@@ -1,0 +1,47 @@
+/*以下为对CSS外部样式表的练习应用*/
+/*
+	这是元素选择器的用法
+	p{
+		color:red;
+	}
+	*/
+/*
+	这是id选择器的用法
+	#p1{
+		color:red;
+	}
+*/
+/*
+	这是类选择器的用法
+	.p2{
+		color:red;
+	}
+*/
+/*对类选择器的补充说明
+	.p2{
+		color:red;
+	}
+	.hello{
+			font-size:20px;		
+	}
+*/
+	/*
+	这是选择器分组的用法
+	#p1{
+		color:red;
+	}
+	.p2{
+		color:red;
+	}
+	.hello{
+			font-size:20px;		
+	}
+	p,.p2,.hello,#p1{
+		;
+	}*/
+	/*
+	这是通配选择器的用法
+	*{
+		color:red;
+	}*/
+	

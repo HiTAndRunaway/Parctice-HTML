@@ -1,0 +1,9 @@
+今天是我第六天学习前端基础
+今天学习的主要内容有 
+浏览器的默认样式 内联元素的盒模型 还学习了display和visibility两个样式
+还有overflow 文档流 浮动 简单布局 
+重点是解决高度塌陷问题 有很多种方案但是最好的是在最后加上一个空的div 然后给他转换为块元素后 清理浮动 设置空的内容 即可
+但在IE6中是不兼容after伪类的 这是需要使用haslayout隐藏属性来解决问题
+IE中是 zoom：1；
+而现代浏览器 类似于火狐 谷歌 360 QQ等浏览器需要使用BFC（block fomatting context）来解决
+方法最好是 overflow：hidden；

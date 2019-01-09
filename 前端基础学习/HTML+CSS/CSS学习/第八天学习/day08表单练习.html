@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表单练习</title>
+		<style type="text/css">
+			center{
+				margin: 50px auto;
+			}
+			textarea{
+				width: 400px;
+				height: 400px;
+			}
+			label{
+				font-family: "宋体";
+			}
+		</style>
+	</head>
+	<body>
+		<center>
+			欢迎来到学生个人管理系统！<br/><br/><br/><br/>
+			<form action="target.html">
+				<fieldset>
+					<legend>账号密码</legend>
+						<label for="id0">用户名：</label>&nbsp;<input type="text" name="username" id="id0"/><br/><br/>
+						<label for="id1">密码：</label>&nbsp;<input type="password" name="password" id="id1"/><br/><br/>
+					
+				</fieldset>
+				<fieldset>
+					<legend>性别选择</legend>
+						请选择你的性别：<br/><br/>
+						<input type="radio" name="sex" value="male" checked="checked" id="id2"/><label for="id2">男</label><br/>
+						<input type="radio" name="sex" value="female" id="id3"/><label for="id3">女</label><br/><br/>
+				</fieldset>
+				<fieldset>
+					<legend>兴趣爱好</legend>
+						请选择你的爱好（可多选）：<br/><br/>
+						<input type="checkbox" name="hobby" value="football"/>足球<br/><br/>
+						<input type="checkbox" name="hobby" value="basketball" checked="checked"/>篮球<br/><br/>
+						<input type="checkbox" name="hobby" value="badminton"/>羽毛球<br/><br/>
+						<input type="checkbox" name="hobby" value="tabletennis"/>乒乓球<br/><br/>
+				</fieldset>
+				<fieldset>
+					<legend>喜欢的明星</legend>.
+						你最喜欢的明星：
+						<select name="favoriteStar">
+							<option value="fbb">范冰冰</option>
+							<option value="zjl" selected="selected">周杰伦</option>
+							<option value="ljj">林俊杰</option>
+							<option value="jsy" selected="selected">江疏影</option>
+				</fieldset>
+				</select>
+				<br/><br/><br/><br/>
+				<fieldset>
+					<legend>个人简介</legend>
+						自我介绍:&nbsp;&nbsp;&nbsp;<textarea name="introduction">我未来立志要成为一名JAVA后端工程师 希望我以后能够顺顺利利 以后前途似锦 财源滚滚 得到所有人的认可</textarea><br/><br/>
+				</fieldset>
+				<input type="submit" value="登陆"/>
+				<input type="reset" value="重置"/>
+				<button type="submit">denglu</button>
+				<button type="reset">chongzhi</button>
+			</form>
+		</center>
+	</body>
+</html>
